@@ -3,6 +3,19 @@
 
 <head>
     <title>Phuwadon</title>
+    <style>
+        .social-box {
+            display: flex;
+            flex-direction: row;
+        }
+        .social-icon {  
+            color: #aaa;
+            transition:  color 0.2s;
+        }
+        .social-icon:hover {
+            color: skyblue;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,6 +27,20 @@
         alt = "My fav Character"
         style = "border-radius:10%;"
     >
+    <div class="social-box">
+        <a class = "social-icon" href="https://www.instagram.com/phuadd_/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon> 
+        </a>
+        <a class = "social-icon" href="https://www.facebook.com/Phum.phuwadon/" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon> 
+        </a>
+        <a class = "social-icon" href="https://github.com/phuwadonop?fbclid=IwAR13NMRlWPQC95j1zCq3JAFKKcD97joChblK4W0dHpe_vs5A90nS15lcF1o" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+        </a>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
 
 </body>
